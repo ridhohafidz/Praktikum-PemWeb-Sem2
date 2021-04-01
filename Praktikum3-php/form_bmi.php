@@ -13,13 +13,13 @@
    <div class="card">
         <div class="py-5 text-center">
          <img class="d-block mx-auto mb-4" src="https://s-media-cache-ak0.pinimg.com/originals/40/1e/6c/401e6ce81c674e75a47683ed4d8c4db6.jpg" alt="" width="100">
-         <h2> <strong> Form Isian Indeks Massa Tubuh (BMI) Passien </strong> </h2>
+         <h2> <strong> Form Isian Index Massa Tubuh </strong> </h2>
         </div>
             <div class="card-body p-5">
                 <form action="form_bmi.php" method="POST">
                     <div class="form-group">
                         <label><strong> Nama</strong></label>
-                        <input type="text" class="form-control col-md" placeholder="Masukan Nama Lengkap" name="nama" required>
+                        <input type="text" class="form-control" placeholder="Masukan Nama Lengkap" name="nama" required>
                     </div>
                     <div class="form-group">
                         <label><strong> Berat Badan </strong></label>
@@ -27,7 +27,7 @@
                             <input type="text" class="form-control col-md" placeholder="Masukan Berat Badan"
                                 name="beratBadan" required>
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2">kg</span>
+                                <span class="input-group-text" id="basic-addon2">Kg</span>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             <input type="text" class="form-control col-md" placeholder="Masukan Tinggi Badan"
                                 name="tinggiBadan" required>
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2">cm</span>
+                                <span class="input-group-text" id="basic-addon2">Cm</span>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             <input type="text" class="form-control col-md" placeholder="Masukan Umur"
                                 name="umur" required>
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2">thn</span>
+                                <span class="input-group-text" id="basic-addon2">Th</span>
                             </div>
                         </div>
                     </div>
@@ -65,9 +65,9 @@
                         </div>
                     </div>
                     <div class="footer">
-                    <button type="reset" name="reset" class="btn btn-danger">Reset</button>
-                    <button type="submit" name="submit" class="btn btn-success" name="proses">Submit</button>
-                    </div>
+                        <button type="reset" name="reset" class="btn btn-danger">Reset</button>
+                        <button type="submit" value="Simpan" name="proses" class="btn btn-success">Input Data</button>
+                    </div>                    
                 </form>
             </div>
             <div class="card output__card">
@@ -93,9 +93,8 @@
                     ?>
                 </div>
             </div>
-         
-            <!-- </div>
-    </section> -->
+      <div class="footer-copyright text-left py-3 ml-4">© 2021 Muhammad Ridho Hafidz
+      </div>                  
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
